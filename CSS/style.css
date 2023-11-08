@@ -1,0 +1,119 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.menu{
+    text-align: right;
+
+    top: -6;
+    font-family: arial;
+    font-size: 13px;
+}
+
+.headertext{
+    margin: 7px;
+    text-decoration: none;
+    color: #000000;
+    position: relative;
+    top: -30px;
+    
+}
+.headertex{
+    margin: 7px;
+ text-decoration: none;
+ color: #000000;
+ top: -30px;
+ position: relative;
+}
+.apps{
+    margin: 7px;
+    width: 35px;
+    top: -13px;
+    position: relative;
+}
+.avatar{ 
+    margin: 7px;
+    top: -6px;
+    width: 50px;
+    position: relative;
+    
+}
+.headertext:hover{
+    color: #777;
+text-decoration: underline;
+}
+.headertex:hover{
+    color: #777;
+    text-decoration: underline;
+}
+
+
+
+/* body part */
+
+
+
+
+
+.google-text{
+    width: 280px;
+  
+    
+
+}
+.google-image{
+    top: 30%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%) ;
+}
+.input-search{
+ position: absolute;
+left: 550px;
+width: 100%;
+padding: 15px;
+border: solid 1px #777;
+border-radius: 50px;
+top: 200px;
+font-size: 14px;
+font-family: Arial , sans-serif;
+}
+.input-khan{
+    width: 500px;
+    height: 45px;
+    transform: translate(-20%, 50% );
+
+    font-family: Arial , sans-serif;
+
+}
+
+button{
+    text-decoration: none;
+    font-family:Arial,  sans-serif;
+    font-size: 15px;
+   left: 550px;
+   position: absolute;
+   padding:  8px 12px;;
+   top: 360px;
+   border-radius:5px;
+   border: 1px solid transparent;
+   cursor: pointer;
+}
+button:hover{
+    
+    box-shadow: 0 0 1px 1px rgba(189, 189, 189, 0.5);
+}
+.google-search{
+    left: 700px;
+}
+.input-search:hover{
+    box-shadow: 0 0 1px 1px rgba(189, 189, 189, 0.5);
+}
+.khan{
+    text-decoration: none;
+    color: #000000;
+}
